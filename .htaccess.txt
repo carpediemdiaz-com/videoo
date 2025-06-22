@@ -1,0 +1,7 @@
+Options -MultiViews
+RewriteEngine On
+RewriteBase /videoo/
+# Serve index.html for all non-file, non-directory requests
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /videoo/index.html [L]
