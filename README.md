@@ -19,4 +19,3 @@ Cross-platform video processing app (Web & Android).
 1. Clone repo
 2. Install prerequisites
 3. Start services…
->>>>>>> e6c8330… chore: initial project scaffolding
